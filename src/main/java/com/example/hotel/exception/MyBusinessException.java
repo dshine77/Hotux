@@ -1,7 +1,7 @@
 package com.example.hotel.exception;
 
 /**
- * @author 言曌
+ * @author dai
  * @date 2019-08-09 16:47
  */
 

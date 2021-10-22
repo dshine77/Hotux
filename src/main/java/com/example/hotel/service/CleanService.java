@@ -6,7 +6,7 @@ import com.example.hotel.entity.Clean;
 /**
  * 打扫记录服务
  *
- * @author 言曌
+ * @author dai
  * @date 2021/1/26 11:58 下午
  */
 

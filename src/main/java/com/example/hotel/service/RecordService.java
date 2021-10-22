@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 预定
- * @author 言曌
+ * @author dai
  * @date 2020/4/6 2:00 下午
  */
 public interface RecordService extends BaseService<Record, Long> {

@@ -4,7 +4,7 @@ package com.example.hotel.util;
 import java.util.Date;
 
 /**
- * @author 言曌
+ * @author dai
  * @date 2020/3/10 9:48 下午
  */
 

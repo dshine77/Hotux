@@ -2,7 +2,7 @@ package com.example.hotel.common.constant;
 
 /**
  * 常量
- * @author 言曌
+ * @author dai
  */
 public interface CommonConstant {
 

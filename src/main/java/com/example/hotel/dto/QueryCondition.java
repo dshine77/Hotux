@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * 查询封装类
- * @author 言曌
+ * @author dai
  * @date 2019-08-16 13:45
  */
 @Data

@@ -6,7 +6,7 @@ import lombok.Data;
 
 /**
  * 预定记录
- * @author 言曌
+ * @author dai
  * @date 2020/4/5 3:25 下午
  */
 @Data

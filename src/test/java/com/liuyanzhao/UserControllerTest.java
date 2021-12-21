@@ -2,6 +2,7 @@ package com.liuyanzhao;
 
 
 import com.example.hotel.Application;
+import com.google.gson.reflect.TypeToken;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,6 +17,10 @@ import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
+
+import java.lang.reflect.Type;
+import java.util.List;
+import java.util.Map;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -64,6 +69,9 @@ public class UserControllerTest {
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 //.andExpect(MockMvcResultMatchers.content().string("Hello Tom!"))
                 .andDo(MockMvcResultHandlers.print());
+
+        Type type = new TypeToken<List<Map<String, String>>>(){}.getType();
+
     }
 
 
